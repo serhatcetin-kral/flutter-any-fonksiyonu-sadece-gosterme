@@ -1,0 +1,17 @@
+void main() {
+ 
+  
+  bool first5(int i){
+    
+    return i==3;
+  }
+  
+  
+  print(first5(testlist[2]));
+  
+  print(testlist.any((i){return i==3;}));
+  }
+
+
+
+List testlist=[1,2,33,4,5];
